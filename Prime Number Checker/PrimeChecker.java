@@ -10,12 +10,8 @@ public class PrimeChecker {
 
         // The code below will check if the number is prime or not
         boolean prime = false;
-        for (int c = 2; c <= Math.sqrt(userNumber); c++) { // This loop will run until c is less or equal to the user number
-        /* The reason for square rooting the userNumber is to optimize performance. 
-        The square root will avoid the same number being multipled. Let say the computer does 
-        7 * 8 = 56 but the computer will also do 8 * 7 which is just repetition. This can 
-        affect the performance onces you have a large number.
-        */
+        for (int c = 2; c <= userNumber; c++) { // This loop will run until c is less or equal to the user number
+
             // This condition checks does two things, it calculates the remainder and checks if it is equal to 0
             if (userNumber % c == 0) { 
                 prime = true; // If the condition is true, the boolean prime will be changed to true
