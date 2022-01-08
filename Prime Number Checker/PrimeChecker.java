@@ -10,8 +10,8 @@ public class PrimeChecker {
 
         // The code below will check if the number is prime or not
         boolean prime = false;
-        for (int c = 2; Math.sqrt(c) <= userNumber / 2; c++) { // This loop will run until c is less or equal to the user number
-        /* The reason for square rooting is to optimize performance. 
+        for (int c = 2; c*c <= userNumber / 2; c++) { // This loop will run until c is less or equal to the user number
+        /* The reason for square rooting (c*c and dividing) is to optimize performance. 
          The square root will avoid the same number being multipled. Let say the computer does 
          7 * 8 = 56 but the computer will also do 8 * 7 which is just repetition. This can 
          affect the performance onces you have a large number.
