@@ -1,17 +1,20 @@
-public class leetCode {
-    public static void main(String[] args) {
+package LeetCode;
+
+public  class twoSum {
+    public static void main(String[] args) 
+    {
         System.out.println("Leetcode Problem: TwoSum");
         int numbers[] = {2,7,11,15};
         int answer[] = {0,0};
-        answer = twoSum(numbers, 9);
-        for(int i = 0; i < answer.length; i++ ) {
+        answer = twoSums(numbers, 9);
+        for(int i = 0; i < answer.length; i++ ) 
+        {
             System.out.println(answer[i]);
         }
-        
     }
-    
-    //Leet code problem: twoSum
-      public static int[] twoSum(int[] nums, int target) {
+
+    public static int[] twoSums(int[] nums, int target) 
+    {
         int placeHolder = 0;
         int[] answer = {0,0};
         for(int i = 0; i < nums.length; i++ ) {
@@ -30,3 +33,15 @@ public class leetCode {
         return answer;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
