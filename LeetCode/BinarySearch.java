@@ -10,7 +10,7 @@ public class BinarySearch
     public static void main(String[] args) 
     {
        int[] testData = {-1,0,3,5,9,12};
-       System.out.println(search(testData, 9));
+       System.out.println(search(testData, 3));
     }
 
     public static int search(int[] nums, int target) {

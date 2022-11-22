@@ -17,7 +17,7 @@ public class MergeTwoSortedLists
        int [] answer = search(testData, testDataTwo);
        for(int i = 0; i < answer.length; i++)
        {
-            System.out.println(answer[i]);
+            System.out.print(answer[i]);
        }
     }
 

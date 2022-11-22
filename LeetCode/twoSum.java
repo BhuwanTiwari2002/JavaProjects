@@ -6,7 +6,7 @@ public  class twoSum {
         System.out.println("Leetcode Problem: TwoSum");
         int numbers[] = {2,7,11,15};
         int answer[] = {0,0};
-        answer = twoSums(numbers, 9);
+        answer = twoSums(numbers, 18);
         for(int i = 0; i < answer.length; i++ ) 
         {
             System.out.println(answer[i]);

@@ -5,7 +5,7 @@ public class RomanNumeral
     //Still needs more work, some constraints aren't added yet
     public static void main(String[] args) {
         System.out.println("Hello World");
-        int answer = romanToInt("LVIII");
+        int answer = romanToInt("XVI");
         System.out.println( "The Roman Numeral Conversion is "+ answer);
     }
     
