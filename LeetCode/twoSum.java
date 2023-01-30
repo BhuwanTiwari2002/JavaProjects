@@ -27,9 +27,18 @@ public  class twoSum {
             {
                 answer[0] = i - 1;
                 answer[1] = i;
-
             }
         }
+        
+
         return answer;
+
+
     }
 }
+
+
+
+
+
+
